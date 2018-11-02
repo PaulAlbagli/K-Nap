@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Quattrocento");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/div-fill.css");
+@import url("components/banner-text.css");
+
+body { 
+	background-color: #D1C4C3;
+	color: #8F6E5D;
+	font-family: 'Quattrocento';
+	font-size: 18px;
+	margin: 0px;}
+h1,h2 {
+	font-family:'Muli';
+	font-size: 35px;}
+h3 { 
+	font-family: 'Muli';
+	font-size: 25px;
+	color: #8F6E5D }
+
+a{
+	text-decoration: none;}
+
+#london {
+    background-image: url(../images/london3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#london:hover{
+   background-image: url(../images/london4.jpg);
+}
+
+#rome {
+    background-image: url(../images/rome3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#rome:hover{
+   background-image: url(../images/rome4.jpg);
+}
+
+#paris {
+    background-image: url(../images/paris3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#paris:hover{
+   background-image: url(../images/paris4.jpg);
+}
+
+#ny {
+    background-image: url(../images/NY3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#ny:hover{
+   background-image: url(../images/NY4.jpg);
+}
+
+#sf {
+    background-image: url(../images/SF3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#sf:hover{
+   background-image: url(../images/SF4.jpg);
+}
+
+#shanghai {
+    background-image: url(../images/shanghai3.jpg);
+	width: 200px;
+	height: 300px;
+	background-size: cover;
+	transition: background-image 0.3s ease;
+}
+
+#shanghai:hover{
+   background-image: url(../images/shanghai4.jpg);
+}

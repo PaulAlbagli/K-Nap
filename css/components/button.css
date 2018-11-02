@@ -1,0 +1,11 @@
+.button-blue{
+	background-color: #8F6E5D;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family:'Muli';
+	transition: background-image 0.3s ease;}
+.button-blue:hover {
+	background-color: #a67f6c;
+}
