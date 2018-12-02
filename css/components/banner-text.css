@@ -1,10 +1,24 @@
-#container-text{
-	width: 1000px;
+.container-text{
+	width: 900px;
 	margin: 10px auto;
+	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;}
+	justify-content: space-around;}
+
+@media (max-width: 960px) {
+  .container-text {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container-text {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container-text {
+    width: 300px;}}
 
 #banner-text{
 	margin-top: 50px;
@@ -15,11 +29,12 @@
 	padding: 20px;
 }
 #text {
-	width: 650px;
+	width: 600px;
 	color: #F2EDD8;
 	text-align: justify;
 }
 #logo {
 	width: 200px;
-	height: 200px
+	height: 200px;
+	margin: 20px 20px;
 }
